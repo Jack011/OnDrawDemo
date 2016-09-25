@@ -5,15 +5,12 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * Created by Administrator on 2016/9/24.
+ * Created by Administrator on 2016/9/25.
  */
-public class AddActivity extends AppCompatActivity {
+public class FristActivity extends AppCompatActivity {
     @Override
-
     protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-
+        setContentView(R.layout.activity_frist);
     }
 }
