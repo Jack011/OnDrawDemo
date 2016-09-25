@@ -21,8 +21,16 @@ public class AddActivity extends AppCompatActivity {
     }
 
     public  void init(){
-        Toast.makeText(AddActivity.this."ssss",Toast.LENGTH_LONG).show();
+        Toast.makeText(AddActivity.this,"ssss",Toast.LENGTH_LONG).show();
     }
+
+
+    public  void initData(){
+        for (int i=0;i<10;i++){
+
+        }
+        Toast.makeText(AddActivity.this,"ssss",Toast.LENGTH_LONG).show();
+}
 
 
 }
