@@ -4,7 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 <TextView
-    android:text=""
+    android:id="@+id/text1"
+    android:text="第二界面"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/text2"
+        android:text="第二界面"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/text3"
+        android:text="第二界面"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/text4"
+        android:text="第二界面"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
