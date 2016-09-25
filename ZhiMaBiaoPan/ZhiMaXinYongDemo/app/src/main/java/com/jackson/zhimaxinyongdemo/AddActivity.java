@@ -11,26 +11,29 @@ import android.widget.Toast;
 public class AddActivity extends AppCompatActivity {
     @Override
 
-    protected void onCreate( Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-
-
     }
 
-    public  void init(){
-        Toast.makeText(AddActivity.this,"ssss",Toast.LENGTH_LONG).show();
+    public void init() {
+
+        Toast.makeText(AddActivity.this, "ssss", Toast.LENGTH_LONG).show();
     }
 
 
-    public  void initData(){
-        for (int i=0;i<10;i++){
+    public void initData() {
+        for (int i = 0; i < 10; i++) {
 
         }
-        Toast.makeText(AddActivity.this,"ssss",Toast.LENGTH_LONG).show();
-}
+        Toast.makeText(AddActivity.this, "ssss", Toast.LENGTH_LONG).show();
+    }
 
+
+    public void initView() {
+        Toast.makeText(this, "ssssss", Toast.LENGTH_SHORT).show();
+    }
 
 }
